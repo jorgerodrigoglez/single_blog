@@ -1,0 +1,242 @@
+/*
+Theme Name: Profesional Profile
+Theme URI: http://www.jorgerodrigogonzalez.es/
+Author: Jorge Rodrigo González
+Author URI: http://www.jorgerodrigogonzalez.es/
+Description: Template about my profesional profile.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: marketing online, social media marketing, community manager, web design
+Text Domain: jrg
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url(css/normalize.css);
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #ddd;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	padding: 5px;
+	background-color: #ccc;
+}
+
+h3 {
+	margin-top: 0;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+p {
+	font-size: 1em;
+	text-indent: 40px;
+	text-align: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.main-nav {
+	background-color: grey;
+	border-bottom: solid #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.page_item {
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 1.5em;
+}
+
+.page_item a {
+	color: #fff;
+	margin-left: 5px;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.page_item a:hover {
+	color: #ddd;
+}
+
+.page_item a:active {
+	color: #000;
+}
+
+section {
+	background-color: #ccc;
+	display: table;
+	width: 100%;
+}
+
+#main-content {
+	display: table-cell;
+	width: 75%;
+}
+
+article {
+	margin-top: 0;
+
+}
+
+.post-title {
+	background-color: #darkgrey;
+	color: #000;
+}
+
+.post-title a {
+	color: #fff;
+}
+
+.post-content {
+	margin-top: -18px;
+	background-color: aqua;
+}
+
+
+aside {
+	background-color: #ddd;
+	display: table-cell;
+	width: 25%;
+	border-left: solid;
+	border-right: solid;
+}
+
+h3.widget-title {
+	background-color: grey;
+	color: #fff;
+	border: solid 1px #000;	
+	text-align: center;
+	margin-right: 5px;
+}
+
+.textwidget {
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.searchform {
+	margin-bottom: 10px;
+}
+
+
+footer {
+	background-color: #000;
+	margin-top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.footer-copyright {
+	background-color: #ccc;
+	color: #fff;
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+.social-media {
+	background-color: #ccc;
+	width: 50%;
+	margin: 0 auto;
+	height: 50px;
+	margin-bottom: 10px;	
+}
+
+
+.meta {
+	background-color: #ccc;
+	color: #000;
+	display: inline-block;
+}
+
+.searchform {
+	text-align: center;
+}
+
+/*COMMENT FORM*/
+
+.comment-respond {
+	background-color: #fff;
+}
+
+#comments-list {
+	background-color: #fff;
+	border-bottom: solid;
+	margin: 0;
+	padding: 0;
+}
+
+
+.comment {
+	background-color: aqua;
+}
+
+.comment-author {
+	background-color: grey;
+}
+
+.comment-meta {
+	background-color: grey;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media all and (max-width: 800px) {
+
+	#main-content {
+		display: table-caption;
+		width: 100%;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;				
+	}
+
+}
